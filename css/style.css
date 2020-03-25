@@ -1,0 +1,204 @@
+.navsmlldsply{
+    display: none;
+}
+
+.contact{
+    padding-top: 10px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.contact .col-md-12 a{
+    padding-right: 10px;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+}
+
+.contact .col-md-12 i{
+    font-size: 24px;
+}
+
+.mainNav ul li{
+    max-width: 330px;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+}
+
+.mainNav ul li img{
+    width: 100%;
+    margin-top: -35px;
+}
+
+.mainNav ul li {
+    padding-top: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.mainNav ul li a{
+    color: black;
+}
+
+.mainNav ul li .nav-link:hover {
+    background: rgb(16,172,132);
+    background: linear-gradient(90deg, rgba(16,172,132,1) 0%, rgba(84,160,255,1) 100%);
+    border-radius: 100px;
+    color: white;
+}
+
+.mainPage .col-md-6:first-child{
+    padding-top: 30px;
+}
+
+.mainPage .caption{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.mainPage .subcaption{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.mainPage .btn {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 100px;
+    background: rgb(16,172,132);
+    background: linear-gradient(90deg, rgba(16,172,132,1) 0%, rgba(84,160,255,1) 100%);
+    margin-right: 10px;
+}
+
+.mainPage a:last-child{
+    width: 90px;
+}
+.mainPage .col-md-6:last-child  {
+    max-width: 563px;
+}
+
+.mainPage .col-md-6 img{
+    width: 100%;
+    margin-left: 135px;
+    margin-top: 8px;
+}
+
+hr{
+    border: 1px solid grey;
+}
+
+
+@media (max-width: 576px) { 
+    .navsmlldsply{
+        display: block;
+    }
+
+    .navsmlldsply .navbar-brand{
+        max-width: 70px;
+    }
+
+    .navsmlldsply img{
+        width: 100%;
+    }
+    
+    .mainNav{
+        display: none;
+    }
+    
+    .contact{
+        padding-top: 10px;
+        font-family: 'Nunito', sans-serif;
+    }
+    
+    .contact .col-md-12 a{
+        padding-right: 10px;
+        font-size: 24px;
+        color: black;
+        font-family: 'Nunito', sans-serif;
+    }
+    
+    .contact .col-md-12 i{
+        font-size: 18px;
+    }
+    
+    .mainNav ul li{
+        max-width: 330px;
+        font-weight: bold;
+        font-family: 'Nunito', sans-serif;
+    }
+    
+    .mainNav ul li img{
+        width: 100%;
+        margin-top: -35px;
+    }
+    
+    .mainNav ul li {
+        padding-top: 50px;
+        font-family: 'Nunito', sans-serif;
+        font-size: 26px;
+        font-weight: bold;
+    }
+    
+    .mainNav ul li a{
+        color: black;
+    }
+    
+    .mainNav ul li a:hover {
+        background: rgb(16,172,132);
+        background: linear-gradient(90deg, rgba(16,172,132,1) 0%, rgba(84,160,255,1) 100%);
+        border-radius: 100px;
+        color: white;
+    }
+    
+    .mainPage .col-md-6:first-child{
+        padding-top: 30px;
+        color: rgba(84,160,255,1);
+    }
+    
+    .mainPage .caption{
+        font-family: 'Work Sans', sans-serif;
+        font-weight: bold;
+        font-size: 50px;
+    }
+    
+    .mainPage .subcaption{
+        font-family: 'Work Sans', sans-serif;
+        font-weight: lighter;
+        font-size: 20px;
+    }
+    
+    .mainPage .btn {
+        color: white;
+        font-family: 'Nunito', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 100px;
+        background: rgb(16,172,132);
+        background: linear-gradient(90deg, rgba(16,172,132,1) 0%, rgba(84,160,255,1) 100%);
+        margin-right: 10px;
+    }
+    
+    .mainPage a:last-child{
+        width: 90px;
+    }
+
+    .mainPage .row{
+        background-image: url('../assets/img/brandillusstrt.png');
+        background-size: cover;
+    }
+
+    .mainPage .row .col-md-6:last-child 
+    {
+        display: none;
+        max-width: 563px;
+
+    }
+    
+    .mainPage .col-md-6 img{
+        width: 100%;
+        margin-left: 135px;
+    }
+}
